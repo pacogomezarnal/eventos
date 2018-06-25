@@ -6,7 +6,7 @@ use Daw\models\Evento;
 $evento = new Evento();
 
 //insertamos un nuevo Registro
-$evento->nuevoRegistro($_POST["nombre"]);
+$evento->buscarAsistente($_POST["dni"]);
 ?>
 <!DOCTYPE html>
 <html>
@@ -21,10 +21,12 @@ $evento->nuevoRegistro($_POST["nombre"]);
         <div class="w3-col w3-container" style="width:30%"></div>
         <div class="w3-col w3-card-4" style="width:40%">
           <header class="w3-container w3-blue">
-            <h2>Registrado</h2>
+            <h2>Comprobacion</h2>
           </header>
           <div class="w3-container">
-            <p>Nuevo registro realizado</p>
+            <!--AQUI MOSTRAREMOS NUESTRO MENSAJE DE USUARIO QUE PUEDE PASAR O NO-->
+            <p>MENSAJE A SUSTITUIR</p>
+            <!-------------------------------------------------------------------->
           </div>
         </div>
         <div class="w3-col w3-container" style="width:30%"></div>

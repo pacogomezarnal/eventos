@@ -11,11 +11,9 @@ class evento extends Db
     parent::__construct();
   }
 
-  //Realizamos un nuevo Registro
-  public function nuevoRegistro($nombre){
-    $consulta="INSERT INTO registro (nombre) ";
-    $consulta=$consulta."VALUES ('$nombre')";
-    return parent::consulta($consulta);
+  //Buscamos a un asistente
+  public function buscarAsistente($dni){
+    $consulta="";
   }
 
 }

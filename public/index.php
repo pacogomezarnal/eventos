@@ -17,9 +17,9 @@ use Daw\models\Table as Table;
           <div class="w3-container w3-blue">
             <h2>Registro en el evento</h2>
           </div>
-          <form class="w3-container" action="registro.php" method="post">
+          <form class="w3-container" action="comprobar.php" method="post">
             <label class="w3-text-blue"><b>Nombre</b></label>
-            <input class="w3-input w3-border" type="text" name="nombre" id="nombre">
+            <input class="w3-input w3-border" type="text" name="dni" id="dni">
             <br>
             <button class="w3-btn w3-blue">Registro</button>
           </form>
